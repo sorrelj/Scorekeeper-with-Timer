@@ -430,7 +430,7 @@ public class Scoreboard extends JFrame implements ActionListener{
 
     public void PlaySound(){
         try {
-            File soundFile = new File("C:\\Users\\Jack\\Desktop\\School\\programming\\Sounds\\Hockey_or_Basketball_Arena_Buzzer_Sounding.wav");
+            File soundFile = new File("<PATH TO FILE>");
             AudioInputStream audioIn = AudioSystem.getAudioInputStream(soundFile);
 
             Clip clip = AudioSystem.getClip();
